@@ -15,9 +15,9 @@ for imgfile in files_grabbed:
     #cv2.destroyAllWindows()
     buf_bgra = cv2.cvtColor(img, cv2.COLOR_RGBA2BGRA)
 
-    # 使用 Matplotlib 顯示圖片
-    plt.imshow(buf_bgra)
-    plt.show()
+    #顯示圖片
+    #plt.imshow(buf_bgra)
+    #plt.show()
 
     root, extension = os.path.splitext(imgfile)
     newFile = open(root+".bgra", "wb")
