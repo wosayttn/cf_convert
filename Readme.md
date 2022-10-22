@@ -5,7 +5,7 @@
 pip insatll -r requirements
 ```
 
-## Execute
+## EXECUTE
 ```bash
 py -3 image2bgra.py
 ```
